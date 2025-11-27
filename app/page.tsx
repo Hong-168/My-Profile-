@@ -138,9 +138,9 @@ export default function HomePage() {
 
             <div className="relative animate-slide-in-right">
               <div className="relative aspect-square max-w-lg mx-auto">
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary via-primary/50 to-primary/20 animate-gradient blur-2xl opacity-50"></div>
+                <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary via-primary/50 to-primary/20 animate-gradient blur-2xl opacity-50"></div>
 
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary to-transparent animate-rotate-slow opacity-30"></div>
+                <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary to-transparent animate-rotate-slow opacity-30"></div>
 
                 <div className="relative w-full h-full p-2">
                   <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl hover-glow animate-float border-4 border-primary/20">
@@ -149,7 +149,7 @@ export default function HomePage() {
                       alt="Kea Leanghong - Computer Science and Data Science Engineering"
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
+                    <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
                   </div>
                 </div>
 
@@ -287,14 +287,14 @@ export default function HomePage() {
           <div className="container mx-auto px-8 md:px-12 lg:px-20">
             <div className="grid lg:grid-cols-5 gap-12 items-center">
               <div className="relative order-2 lg:order-1 lg:col-span-2 animate-slide-in-left group">
-                <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-3xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
-                <div className="relative aspect-square max-w-md mx-auto rounded-2xl bg-gradient-to-br from-primary/10 to-transparent overflow-hidden shadow-2xl hover-glow border-2 border-primary/20">
+                <div className="absolute -inset-4 bg-linear-to-br from-primary/20 via-primary/10 to-transparent rounded-3xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
+                <div className="relative aspect-square max-w-md mx-auto rounded-2xl bg-linear-to-br from-primary/10 to-transparent overflow-hidden shadow-2xl hover-glow border-2 border-primary/20">
                   <img
                     src="/photo_2025-11-10_09-15-02.jpg"
                     alt="Kea Leanghong"
                     className="rounded-2xl object-cover w-full h-full transition-transform hover:scale-105 duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="absolute inset-0 bg-linear-to-br from-primary/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/20 rounded-full blur-2xl animate-glow"></div>
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-full blur-2xl animate-glow animation-delay-400"></div>

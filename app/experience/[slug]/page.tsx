@@ -108,7 +108,7 @@ export default async function ExperienceDetailPage({
                 <ul className="space-y-2">
                   {experience.highlights.slice(0, 3).map((highlight, index) => (
                     <li key={index} className="flex items-start gap-2 text-sm">
-                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
                       <span>{highlight}</span>
                     </li>
                   ))}
@@ -132,7 +132,7 @@ export default async function ExperienceDetailPage({
                     <ul className="space-y-2 ml-6">
                       {section.points.map((point, pointIndex) => (
                         <li key={pointIndex} className="flex items-start gap-3">
-                          <CheckCircle2 className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
+                          <CheckCircle2 className="h-5 w-5 text-primary mt-1 shrink-0" />
                           <span>{point}</span>
                         </li>
                       ))}
@@ -158,7 +158,7 @@ export default async function ExperienceDetailPage({
                 <ul className="grid md:grid-cols-2 gap-3">
                   {experience.highlights.map((highlight, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                       <span className="text-sm">{highlight}</span>
                     </li>
                   ))}
@@ -169,7 +169,7 @@ export default async function ExperienceDetailPage({
             {/* Author Section */}
             <div className="mt-12 p-6 bg-muted/50 rounded-lg">
               <div className="flex items-start gap-4">
-                <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center text-2xl font-bold text-primary flex-shrink-0">
+                <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center text-2xl font-bold text-primary shrink-0">
                   KL
                 </div>
                 <div>
