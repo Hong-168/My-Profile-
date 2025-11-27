@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b \"d:\\Website_Real\\Website_AboutME-main\\public\\*.jpg\")",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(if exist \".next\\dev\\lock\" del \".next\\dev\\lock\")",
+      "Bash(dir /b \"d:\\Website_Real\\Website_AboutME-main\\public\\*.pdf\")",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
